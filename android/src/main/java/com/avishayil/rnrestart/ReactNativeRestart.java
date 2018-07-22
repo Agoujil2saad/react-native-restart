@@ -52,6 +52,9 @@ public class ReactNativeRestart extends ReactContextBaseJavaModule {
                 @Override
                 public void run() {
                     try {
+                        if(instanceManager.hasStartedCreatingInitialContext()){
+                            instanceManager.createReactContextInBackground();
+                        }
                         instanceManager.recreateReactContextInBackground();
                     } catch (Exception e) {
                         loadBundleLegacy();
