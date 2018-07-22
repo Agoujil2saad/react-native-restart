@@ -1,6 +1,7 @@
 # React Native Restart
 
-Restart Your React Native Project
+Restart Your React Native Project this fork of the package aim to fix Android crash 
+React Native V.0.53.2
 
 [![npm version](https://img.shields.io/npm/v/react-native-restart.svg?style=flat-square)](https://www.npmjs.com/package/react-native-restart)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-restart.svg?style=flat-square)](https://www.npmjs.com/package/react-native-restart)
